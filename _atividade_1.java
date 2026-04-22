@@ -13,10 +13,12 @@ public class _atividade_1 {
         limit = sc.nextInt();
 
         System.out.println("Digite números até alcançar esse limite");
+        
         do {
             numb = sc.nextInt();
             plus = plus + numb;
-        } while (plus<=limit);
+        } while (plus <= limit);
+        
         System.out.println("Você ultrapassou o limite imposto por você mesmo e a soma dos números é: "+plus);
         sc.close();
     }
