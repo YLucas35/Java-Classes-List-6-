@@ -18,5 +18,6 @@ public class _atividade_2 {
             }
         } while (numb != 0);
         System.out.println("Existem: "+maior+" números maiores que 10.");
+        sc.close();
     }
 }
