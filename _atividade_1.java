@@ -1,4 +1,4 @@
-package Java_Lista_5_Faca_Enquanto;
+package Java_Lista_6_Faca_Enquanto;
 
 import java.util.Scanner;
 
