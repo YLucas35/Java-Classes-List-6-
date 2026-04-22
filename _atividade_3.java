@@ -9,10 +9,10 @@ public class _atividade_3 {
 
         plus = 0;
 
-        System.out.println("Digite números, e eu somarei apenas aqueles que são múltiplos de 3. (até você digitar o número 0)");
-
         do {
+            System.out.println("Digite números, e eu somarei apenas aqueles que são múltiplos de 3. (até você digitar o número 0)");
             numb = sc.nextInt();
+
             if (numb % 3 == 0) {
                 plus = plus + numb;
             }
