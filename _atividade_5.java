@@ -11,12 +11,14 @@ public class _atividade_5 {
 
         do {
             numb = sc.nextInt();
-            result = numb*2;
-            System.out.println("o dobro do seu numero é "+result);
+            if (numb == 0) {
+                System.out.println("Encerrando o programa...");
+            }
+            else {
+                result = numb*2;
+                System.out.println("o dobro deste numero é "+result);
+            }
         } while (numb != 0);
-
-
-        System.out.println("Os dobro dos números são: "+result);
         sc.close();
     }
 }
