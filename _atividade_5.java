@@ -15,7 +15,7 @@ public class _atividade_5 {
                 System.out.println("Encerrando o programa...");
             }
             else {
-                result = numb*2;
+                result = numb * 2;
                 System.out.println("o dobro deste numero é "+result);
             }
         } while (numb != 0);
