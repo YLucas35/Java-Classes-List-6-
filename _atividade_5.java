@@ -7,7 +7,7 @@ public class _atividade_5 {
         Scanner sc = new Scanner(System.in);
         int numb, result;
 
-        System.out.println("Digite números, e eu mostrarei o dobro deles no final (até você digitar 0)");
+        System.out.println("Digite números, e eu mostrarei o dobro de cada um deles (até você digitar 0)");
 
         do {
             numb = sc.nextInt();
