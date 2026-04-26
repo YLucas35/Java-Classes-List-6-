@@ -16,11 +16,14 @@ public class _atividade_6 {
         if (numb != 0) {
             do {
                 numb = sc.nextInt();
-                if (numb > maior) {
-                    maior = numb;
-                }
-                if (numb < menor) {
-                    menor = numb;
+                if (numb != 0) {
+                    if (numb > maior) {
+                        maior = numb;
+                    }
+
+                    if (numb < menor) {
+                        menor = numb;
+                    }
                 }
             } while (numb != 0);
         }
