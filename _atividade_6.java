@@ -8,8 +8,8 @@ public class _atividade_6 {
         int numb, maior, menor;
 
         System.out.println("Digite números e eu mostrarei qual é o maior e o menor entre eles. (até você digitar 0):");
-
         numb = sc.nextInt();
+        
         maior = numb;
         menor = numb;
 
