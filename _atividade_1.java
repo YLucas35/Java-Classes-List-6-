@@ -12,8 +12,9 @@ public class _atividade_1 {
         System.out.println("Digite um número limite:");
         limit = sc.nextInt();
 
+        System.out.println("Digite números até alcançar esse limite");
+
         do {
-            System.out.println("Digite números até alcançar esse limite");
             numb = sc.nextInt();
             plus = plus + numb;
         } while (plus <= limit);
