@@ -11,10 +11,11 @@ public class _atividade_4 {
         plus = 0;
         count = 0;
 
+        System.out.println("Digite números, e eu farei a média apenas dos números positivos. (até você digitar o número 0)");
+
         do {
-            System.out.println("Digite números, e eu farei a média apenas dos números positivos. (até você digitar o número 0)");
             numb = sc.nextInt();
-            
+
             if (numb > 0) {
                 plus = plus + numb;
                 count = count + 1;
