@@ -5,19 +5,18 @@ import java.util.Scanner;
 public class _atividade_14 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int nota, count;
+        int nota;
 
-        count = 0;
-
-        System.out.println("Digite uma nota (se a nota for 0 ou maior do que 10 eu encerrei o programa)");
+        System.out.println("Digite uma nota (se a nota estiver entre 0 e 10 a nota será inválida.)");
 
         do {
             nota = sc.nextInt();
-            count = count + 1;
-        } while (nota > 0 && nota < 10);
+            if (nota < 0 || nota > 10) {
+                System.out.println("Nota inválida! Tente novamente.");
+            }
+        } while (nota < 0 || nota > 10);
 
-        System.out.println("A sua nota é: "+nota);
+        System.out.println("A nota válida digitada é: "+nota);
         sc.close();
     }
 }
-
