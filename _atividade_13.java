@@ -16,7 +16,7 @@ public class _atividade_13 {
         do {
             numb = sc.nextInt();
             plus = plus + numb;
-            count =count + 1;
+            count = count + 1;
         } while (numb != 0);
 
         if (count > 0) {
