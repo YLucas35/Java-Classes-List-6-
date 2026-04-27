@@ -15,14 +15,18 @@ public class _atividade_13 {
 
         do {
             numb = sc.nextInt();
-            count =count + 1;
-            media = (numb + count) / 2.0;
             plus = plus + numb;
+            count =count + 1;
         } while (numb != 0);
-        
-        System.out.println("Foram digitados "+count+" números!");
-        System.out.println("o resultado da soma dos números é "+plus);
-        System.out.println("o resultado da média dos resultados é: "+media);
+
+        if (count > 0) {
+            media = plus / count;
+            System.out.println("Foram digitados "+count+" números!");
+            System.out.println("O resultado da soma dos números é "+plus);
+            System.out.println("O resultado da média dos números é: "+media);
+        } else {
+            System.out.println("Nenhum número além do zero foi digitado.");
+        }
         sc.close();
     }
 }
