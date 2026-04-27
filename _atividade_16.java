@@ -19,6 +19,5 @@ public class _atividade_16 {
         } while (numb != 0);
         System.out.println("A quantidade de números que estão entre 10 e 50 é: "+count);
         sc.close();
-        //Leia números até digitar 0 e mostre quantos estão entre 10 e 50.
     }
 }
