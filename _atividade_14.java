@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _atividade_14 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int nota;
 
         System.out.println("Digite uma nota (se a nota estiver entre 0 e 10 a nota será inválida.)");
