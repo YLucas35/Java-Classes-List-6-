@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _atividade_18 {
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int numb, count, maior, menor;
 
         count = 0;
