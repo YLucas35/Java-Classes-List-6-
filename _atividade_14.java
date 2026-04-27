@@ -15,7 +15,8 @@ public class _atividade_14 {
             nota = sc.nextInt();
             count = count + 1;
         } while (nota > 0 && nota < 10);
-        System.out.println("A nota é: "+nota);
+        
+        System.out.println("A sua nota é: "+nota);
         sc.close();
     }
 }
